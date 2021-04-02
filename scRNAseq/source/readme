@@ -1,0 +1,48 @@
+The following codes were used to draw main conclusions of single-cell RNA-seq analysis for Yum et al., Nature (2021).
+
+1) Fig3c_EDFig6h.R: 
+This code was used to calculate the fractions of mutant and WT epithelial cells in Red2Onco models and Confetti control.
+
+2) EDFig8g.R:
+This code was used to calculate the fractions of mesenchymal cell types in Red2Onco models and Confetti control.
+
+3) EDFig8h.R:
+This code was used to calculate the fractions of immune cell types in Red2Onco models and Confetti control.
+
+4) Fig3d.R:
+This code was used to calculate priming scores of WT epithelial cells for Confetti and Red2Onco models toward enterocyte lineage.
+
+5) EDFig7b_Secretory.R:
+This code was used to calculate priming scores of WT epithelial cells for Confetti and Red2Onco models toward secretory lineage.
+
+6) EDFig7a_Enterocyte.R
+This code was used to priming scores of MT epithelial cells for Confetti and Red2Onco models toward enterocyte lineage.
+
+7) EDFig7a_Secretory.R
+This code was used to priming scores of MT epithelial cells for Confetti and Red2Onco models toward each of secretory lineages.
+
+8) Fig3e_BMP.R
+This code was used to calculate gene set enrichment scores of BMP signaling for epithelial cells.
+
+9) Fig3e_WNT.R
+This code was used to calculate gene set enrichment scores of WNT signaling for epithelial cells.
+
+10) EDFig7m.R
+This code was used to calculate gene set enrichment scores of NOTCH signaling for epithelial cells.
+
+11) Fig3i_AUGUR.R
+This code is to calculate the statistical significance of transcriptomic change for mesenchymal cells based on the separability using AUGUR 
+
+12) Fig3i_VAR.R
+This code is to calculate the statistical significance of transcriptomic change for mesenchymal cells based on cell-to-cell variability.
+
+13) EDFig8i_AUGUR.R
+This code is to calculate the statistical significance of transcriptomic change for immune cells based on the separability using AUGUR.
+
+14) EDFig8i_VAR.R
+This code is to calculate the statistical significance of transcriptomic change for immune cells based on cell-to-cell variability.
+
+
+
+
+

@@ -1,0 +1,30 @@
+Fortran programme crypt_imbalance.f makes a least-square fit to the experimental
+clone size distrtibution as presented in Extended Data Fig. 3d-f.
+
+kras.dat contains RFP+ clone size data for mutant clones in red2kras mice
+
+pi3k.dat contains RFP+ clone size data for mutant clones in red2pi3k mice
+
+n1.dat contains RFP+ clone size data for mutant clones in red2notch mice
+
+For all data sets, first column is day 4, second is day 7, third is day 14,
+and fourh is day 21.
+
+The code crypt_imbalance.f must be adjusted according to the chosen data set
+and the time offset (dt0). Optimal values are shown in Supplementary theory.
+
+Sample outputs are contained in:
+
+average_optimal.dat - average clone size (experiment and fit)
+
+dist_optimal.dat - clone size distribution comprising experiment with error
+bars and theoretical fit
+
+cdist_optimal.dat - cumulative clone size distribution containing experiment
+with error bars and theoretical fit
+
+lsq.dat - contains least-square values for parameter set - read out by
+mathematica code mutant.nb
+
+Functional dependence of blue line is defined Supplementary Theory and
+mathematica code

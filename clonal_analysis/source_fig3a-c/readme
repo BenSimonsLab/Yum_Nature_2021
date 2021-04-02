@@ -1,0 +1,28 @@
+Fortran programme crypt_neutral.f makes a least-square fit to the experimental
+clone size distrtibution as presented in Extended Data Fig. 3a-c.
+
+yfpcontrol.dat contains YFP+ clone size data for confetti control 
+
+yfpkrasremote.dat contains YFP+ clone size data for YFP+ clones in crypts
+remote from mutant crypts in red2kras mice
+
+yfppi3kremote.dat contains YFP+ clone size data for YFP+ clones in crypts
+remote from mutant crypts in red2pi3k mice
+
+For all data sets, first column is day 4, second is day 7, third is day 14,
+and fourh is day 21.
+
+The code crypt_neutral.f must be adjusted according to the chosen data set.
+
+Sample outputs are contained in:
+
+average_optimal.dat - average clone size (experiment and fit)
+
+dist_optimal.dat - clone size distribution comprising experiment with error
+bars and theoretical fit
+
+cdist_optimal.dat - cumulative clone size distribution containing experiment
+with error bars and theoretical fit
+
+lsq.dat - contains least-square values for parameter set - read out by
+mathematica code YFP_controls.nb
